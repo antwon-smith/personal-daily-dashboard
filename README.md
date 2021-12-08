@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Personal Daily Dashboard - Capstone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Goal
 
-## Available Scripts
+Using React and Transact SQL, create a single page web app dashboard for personal use which provides multiple relevant pieces of information about my day at a glance.
 
-In the project directory, you can run:
+## User Stories
 
-### `npm start`
+- As a user, I want the current weather displayed so that I know how to dress before leaving.
+- As a user, I want to see the forecast for the next three days so that I know what weather to expect.
+- As a user, I want the top news headlines shown to me so that I know what’s going on in the world.
+- As a user, I want my upcoming calendar events for the day to be shown in a list on the page.
+- As a user, I want to be able to view a list of tasks I’ve created so that I can keep track of my to-do items.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Objective Timelines
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+| Date       | Objectives                                                                                                                  |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Dec. 8     | Complete project plan and submit for review.                                                                                |
+| Dec. 13    | Weather API is added to project and weather data is shown to the user.                                                      |
+| Dec. 17    | News API is added to project and the desired news headlines are displayed neatly on the page with clickable headlines.      |
+| Dec. 20    | SQL database created for to-do list. To-do list is displayed on the page (with input box to add more items if time allows). |
+| Dec. 23    | Google calendar API is added and events are displayed neatly on the page.                                                   |
+| Dec. 24-27 | Thoroughly review code, check for bugs and make necessary improvements.                                                     |
+| Dec. 29    | Submit project!                                                                                                             |
 
-### `npm test`
+Learning and research required includes:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Complete book on React
 
-### `npm run build`
+2. Flexbox CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. tSQL and React integration
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   -
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Google calendar API authentication and usage
 
-### `npm run eject`
+5. Materialize CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+6. More to be added as needed
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This Readme will be replaced with a final version when the project is complete.
