@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
+  var myCurrentDate = new Date();
+  var date = (myCurrentDate.getMonth()+1) + '-' + myCurrentDate.getDate() + '-' + myCurrentDate.getFullYear();
+  const newCurrentDate = "Today's Date is "+date;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='hello'>
+        <h3 className="Welcome-message">Hello, Antwon.</h3>
+      </div>
+      <div>
+        <h4 className='date'>{newCurrentDate} and it's a wonderful day!</h4>
+      </div>
+      
     </div>
   );
 }

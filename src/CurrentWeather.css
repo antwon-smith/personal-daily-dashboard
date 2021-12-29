@@ -1,0 +1,17 @@
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.location,
+.condition,
+.feels-like,
+.low,
+.high,
+.rain {
+  text-align: center;
+}
+
+.bold-heading {
+  font-weight: bold;
+}
